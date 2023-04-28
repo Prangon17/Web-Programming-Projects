@@ -1,0 +1,111 @@
+body{
+    background-color:lightyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 80px;
+    height: auto;
+    width: auto;
+
+
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-profile{
+    margin-left: 5px;
+}
+#btn{
+    color: whitesmoke;
+    background-color: gray;
+    padding: 8px;
+    border: none;
+}
+.header-contact{
+    margin-right: 100px;
+}
+.profile{
+    display: flex;
+   
+  
+}
+.profile p{
+    margin-left: 180px;
+    text-align: justify;
+    margin-right: 50px ;
+}
+.profile h3{
+    margin-left: 50px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-right: 455px;
+    gap:20px;
+}
+
+.skillDetails{
+    margin-left: 20px;
+}
+.skills h3{
+    margin-left: 20px;
+}
+.technical h3{
+ margin-left: 50px;
+   
+}
+.techskills{
+  display: flex;
+  gap: 100px;
+
+}
+.techskill_2{
+    display: flex;
+    margin-left: 230px;
+    gap: 150px;
+}
+.techskill_3{
+    display: flex;
+    margin-left: 230px;
+    gap: 150px;
+}
+.techskill_2 p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gap{
+    margin-left: 50px;
+}
+.hr{
+    margin-left: 230px;
+    margin-right: 150px;
+}
+
+
+.experience{
+    display: flex;
+}
+.experienceInfo{
+    margin-left: 140px;
+}
+#experienceTime{
+    margin-left: 550px;
+}
+#experienceTime_1{
+    margin-left: 460px;
+}
+#experienceDetails{
+    margin-left: 230px;
+}
+.education{
+    display: flex;
+
+}
+
+.education p1{
+    padding-left: 140px;
+}
+.education p2{
+    padding-left: 140px;
+}
