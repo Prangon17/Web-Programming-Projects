@@ -1,1 +1,4 @@
+This my sample CV making using only HTML and CSS.
+Hope this was helpful for creating basic CV using simple web programming.
 
+Thank You.
