@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css" type="text/css">
+    <script>
+        function Changer(image) {
+            var zoomimg= document.getElementById("zoomimg");
+            var imgText = document.getElementById("imgtext");
+            zoomimg.src = image.src;
+            imgText.innerHTML = image.alt;
+            zoomimg.parentElement.style.display = "block";
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="img1" id="image1">
+            <img src="img1.png" alt="PROF. DR. MD. SAIFUL AZAD" onclick="Changer(this);"> <br>
+            PROF. DR. MD. SAIFUL AZAD <br><br><br>Chairman and Professor
+            <br>chairman@cse.green.edu.bd <br> <br>
+           <a href="img1.html"> <button>View Profile</button></a>
+        </div>
+
+        <div class="img2" id="image2">
+            <img src="img2.png" alt="PROF. DR. MD. ABDUR RAZZAQUE" onclick="Changer(this);"> <br>
+            PROF. DR. MD. ABDUR RAZZAQUE <br><br>Professor <br>razzaque@cse.green.edu.bd <br>
+            <br>  <a href="img2.html"><button>View Profile</button></a>
+
+        </div>
+
+        <div class="img3" id="image3">
+            <img src="img3.png" alt="MR. SYED AHSANUL KABIR" onclick="Changer(this);"><br>
+            <span class="bio"> MR. SYED AHSANUL KABIR <br><br>Associate Chairperson of CSE & Associate Professor
+                <br>kabir@cse.green.edu.bd<br> <br>
+                <a href="img3.html"><button>View Profile</button></a>
+        </div>
+
+        <div class="img4" id="image4">
+            <img src="img4.png" alt="MS. SUMAIYA KABIR" onclick="Changer(this);">
+            <br>MS. SUMAIYA KABIR <br><br>Assistant Professor
+            <br>sumaiya@cse.green.edu.bd <br><br><br>
+            <a href="img4.html"><button>View Profile</button></a>
+        </div>
+
+        <div class="img5" id="image5">
+            <img src="img5.png" alt="MS. SHAMIMA AKTER" onclick="Changer(this);">
+            <br>MS. SHAMIMA AKTER<br><br>Assistant Professor <br>shamima_akter@cse.green.edu.bd <br> <br><br>
+            <a href="img5.html"><button>View Profile</button></a>
+        </div>
+
+        <div class="immg6" id="image6">
+            <img src="img6.png" alt="MS. SHAMIMA ISLAM" onclick="Changer(this);">
+            <br>MS. SHAMIMA ISLAM<br> <br>Assistant Professor <br>shamima@cse.green.edu.bd <br> <br><br>
+            <a href="img6.html"><button>View Profile</button></a>
+        </div>
+
+        <div class="img7" id="image7">
+            <img src="img7.png" alt="MR. HUMAYAN KABIR RANA" onclick="Changer(this);">
+            <br>MR. HUMAYAN KABIR RANA <br><br>Senior Lecturer <br>humayan@cse.green.edu.bd <br><br> <br>
+            <a href="img7.html"><button>View Profile</button></a>
+        </div>
+
+        <div class="img8" id="image8">
+            <img src="img8.png" alt="MS. TANPIA TASNIM" onclick="Changer(this);">
+            <br>MS. TANPIA TASNIM<br> <br>Program Coordinator (Evening Program) & Lecturer 
+            <br>tanpia@cse.green.edu.bd<br><br>
+            <a href="img8.html"><button>View Profile</button></a>
+        </div>
+
+        <div class="img9" id="image9">
+            <img src="img9.png" alt="MS. UMME HABIBA" onclick="Changer(this);">
+            <br>MS. UMME HABIBA <br><br>Lecturer <br>umme@cse.green.edu.bd<br> <br><br>
+            <a href="img9.html"><button>View Profile</button></a>
+        </div>
+
+        <div class="img10" id="image10">
+            <img src="img10.png" alt="MS. BABE SULTANA" onclick="Changer(this);">
+            <br>MS. BABE SULTANA<br><br>Lecturer <br>babe@cse.green.edu.bd <br> <br><br>
+            <a href="img10.html"><button>View Profile</button></a>
+        </div>
+
+        <div class="img11" id="image11">
+            <img src="img11.png" alt="MS. FATEMA TUJ JOHORA" onclick="Changer(this);">
+            <br>MS. FATEMA TUJ JOHORA<br><br>Lecturer <br>fatema@cse.green.edu.bd<br> <br><br>
+            <a href="img11.html"><button>View Profile</button></a>
+        </div>
+
+        <div class="img12" id="image12">
+            <img src="img12.png" alt="MR. MD. RAJIBUL PALASH" onclick="Changer(this);">
+            <br>MR. MD. RAJIBUL PALASH <br><br>Lecturer <br>rajibul@cse.green.edu.bd <br><br><br>
+           <a href="img 12.html"> <button>View Profile</button></a>
+        </div>
+    </div>
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">
+            <button id="Exit">Exit</button>
+        </span>
+        <img id="zoomimg">
+        <div id="imgtext"></div>
+    </div>
+</body>
+
+</html>

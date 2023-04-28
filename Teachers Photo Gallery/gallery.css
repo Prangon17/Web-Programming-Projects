@@ -1,0 +1,69 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    font-size: 15px;
+    text-align: left;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    opacity: 1;
+    margin-top: 1%;
+    gap: 10px;
+    position: absolute;
+    height: 300px;
+}
+
+.container {
+    position: absolute;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+#imgtext {
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+    color: wheat;
+    font-size: 20px;
+    text-align: center;
+    padding: 5%;
+}
+
+.closebtn {
+    position: absolute;
+    top: 3px;
+    right: 15px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#zoomimg {
+    margin: auto;
+    display: block;
+    width: 200%;
+    max-width: 400px;
+    height: fit-content;
+    animation-name: zoom;
+    
+}
+.container button{
+    background-color: red;
+}
+.gallery button{
+    background-color: rgba(0, 128, 0, 0.726);
+}
+
